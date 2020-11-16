@@ -1,0 +1,24 @@
+User & Server
+
+1. User ---> Server
+
+* login / logoff
+* status
+
+
+
+2. Server ----> User
+
+* online / offline messages
+"this person is currently offline and wont recieve your message"
+
+
+3. User ----> User
+
+* Direct message
+* Broadcast messages
+
+
+Commands:
+login <user> <Password>
+logoff (no username or password)
