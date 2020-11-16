@@ -16,9 +16,19 @@ User & Server
 3. User ----> User
 
 * Direct message
-* Broadcast messages
+* Broadcast messages (group messaging)
+* we will allow users to join a certain topic, and anyone in that topic (group?) will be able to recieve certain messages -
+from other members
 
 
 Commands:
 login <user> <Password>
 logoff (no username or password)
+
+msg <user> msgBody....
+
+
+#topic <---- chat room/group chat you can join through a topic.
+join #topic
+send: msg #topic msgbody... will allow you to send messages to that topic group.
+recieve : msg #topic:<login> msgbody..
